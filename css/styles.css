@@ -1,0 +1,43 @@
+#gallery {
+text-align:center;
+}
+
+#slider-cont{
+text-align:center;
+/*font-size:62.5%;*/
+}
+
+#slider { 
+margin-left:auto;
+margin-right:auto;
+width: 27cm;
+}
+
+#img-cont {
+}
+
+img {
+height: 400px;
+}
+
+#slider .tick { 
+z-index: 2; 
+position: absolute; 
+height: 100%;
+background: none; 
+border-top: none; 
+border-right: none; 
+border-bottom: none; 
+text-align: center; 
+}
+
+
+#slider .ui-slider-handle { 
+z-index: 3; 
+height: 1.75em; 
+width: 0.5em; 
+margin-left: -0.3em; 
+top: 0;  
+margin-top: -0.5em; 
+opacity: .75;
+}

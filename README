@@ -1,0 +1,18 @@
+This is custom image gallery using the jQuery.
+It uses the slider control in jQuery to change images.
+
+Copyright (C) 2010 Martin Velez (mvelez999 at gmail com)
+Version 1.0 2010-11-02
+
+Requirements:
+-jQuery 1.4.3
+-jQuery UI 1.8
+
+Usage:
+The index.html file demonstrates what this gallery looks like.
+The slider.js file defines the slider control.
+They CSS stylesheet is found in the css folder.
+
+
+
+
