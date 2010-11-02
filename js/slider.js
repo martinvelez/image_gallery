@@ -57,7 +57,7 @@ $(document).ready(function() {
 	var ticks = new Array(num_pictures-1);
 	$("#slider").slider({ max: num_pictures-1});
 	$("#slider").slider({
-		change: function(event, ui) {  
+		slide: function(event, ui) {  
 			var value = $( "#slider" ).slider( "option", "value" );
 			document["frame"].src = folder+images[value];
 		}		
